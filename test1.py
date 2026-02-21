@@ -2,7 +2,7 @@
 
 
 
-st_path=r'C:\STMOD\STMOD'
+st_path=r'C:\STMOD'
 new_path = st_path.replace("\\", "/")
 st_path = new_path
 st_cur_server='test'
