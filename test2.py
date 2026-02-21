@@ -29,9 +29,9 @@ if _base not in sys.path:
 
 def load_test1():
     try:
-        if "test2" in sys.modules:
-            del sys.modules["test2"]
-        __import__("test2")
+        if "test1" in sys.modules:
+            del sys.modules["test1"]
+        __import__("test1")
     except Exception:
         pass
 
